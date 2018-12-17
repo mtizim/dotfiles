@@ -1,0 +1,346 @@
+Starting Jedi Python language engine.
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+************* Module calc
+1,0,error,E0001:invalid syntax (<unknown>, line 1)
+##########Linting Output - pylint##########
+************* Module calc
+1,0,error,E0001:invalid syntax (<unknown>, line 1)
+##########Linting Output - pylint##########
+************* Module calc
+1,0,error,E0001:invalid syntax (<unknown>, line 1)
+##########Linting Output - pylint##########
+************* Module calc
+1,0,error,E0001:invalid syntax (<unknown>, line 1)
+##########Linting Output - pylint##########
+************* Module calc
+1,0,error,E0001:invalid syntax (<unknown>, line 1)
+##########Linting Output - pylint##########
+************* Module calc
+2,15,error,E0602:Undefined variable 'char'
+2,27,error,E0602:Undefined variable 'ch'
+
+-------------------------------------
+Your code has been rated at -23.33/10
+
+##########Linting Output - pylint##########
+************* Module calc
+2,0,error,E0001:invalid syntax (<unknown>, line 2)
+##########Linting Output - pylint##########
+************* Module calc
+2,0,error,E0001:invalid syntax (<unknown>, line 2)
+##########Linting Output - pylint##########
+
+----------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: -23.33/10, +33.33)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+4,4,warning,W0612:Unused variable 'tab'
+
+-------------------------------------------------------------------
+Your code has been rated at 8.00/10 (previous run: 10.00/10, -2.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+4,0,error,E0001:invalid syntax (<unknown>, line 4)
+##########Linting Output - pylint##########
+************* Module calc
+4,4,warning,W0612:Unused variable 'tab'
+
+------------------------------------------------------------------
+Your code has been rated at 8.00/10 (previous run: 8.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.00/10, +2.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+4,0,error,E0001:invalid syntax (<unknown>, line 4)
+##########Linting Output - pylint##########
+************* Module calc
+4,0,error,E0001:invalid syntax (<unknown>, line 4)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+4,4,warning,W0612:Unused variable 'tab'
+
+-------------------------------------------------------------------
+Your code has been rated at 8.33/10 (previous run: 10.00/10, -1.67)
+
+##########Linting Output - pylint##########
+************* Module calc
+8,0,error,E0001:invalid syntax (<unknown>, line 8)
+##########Linting Output - pylint##########
+************* Module calc
+7,0,error,E0001:invalid syntax (<unknown>, line 7)
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.33/10, +1.67)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+8,0,error,E0001:invalid syntax (<unknown>, line 8)
+##########Linting Output - pylint##########
+************* Module calc
+9,0,error,E0001:invalid syntax (<unknown>, line 9)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+2,13,error,E1101:Instance of 'str' has no 'string' member
+
+-------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 10.00/10, -3.57)
+
+##########Linting Output - pylint##########
+************* Module calc
+2,13,error,E0602:Undefined variable 'join'
+2,18,error,E1101:Instance of 'str' has no 'string' member
+
+------------------------------------------------------------------
+Your code has been rated at 2.86/10 (previous run: 6.43/10, -3.57)
+
+##########Linting Output - pylint##########
+************* Module calc
+2,21,error,E1101:Instance of 'str' has no 'string' member
+
+------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 2.86/10, +3.57)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 6.43/10, +3.57)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+11,0,error,E0001:invalid syntax (<unknown>, line 11)
+##########Linting Output - pylint##########
+************* Module calc
+13,0,error,E0001:invalid syntax (<unknown>, line 13)
+##########Linting Output - pylint##########
+************* Module calc
+1,0,error,E0001:invalid syntax (<unknown>, line 1)
+##########Linting Output - pylint##########
+************* Module calc
+1,0,error,E0001:invalid syntax (<unknown>, line 1)
+##########Linting Output - pylint##########
+************* Module calc
+1,0,error,E0001:invalid syntax (<unknown>, line 1)
+##########Linting Output - pylint##########
+************* Module calc
+16,0,error,E0001:unexpected unindent (<unknown>, line 16)
+##########Linting Output - pylint##########
+************* Module calc
+16,0,error,E0001:unexpected unindent (<unknown>, line 16)
+##########Linting Output - pylint##########
+************* Module calc
+18,0,error,E0001:unexpected unindent (<unknown>, line 18)
+##########Linting Output - pylint##########
+************* Module calc
+18,0,error,E0001:unexpected unindent (<unknown>, line 18)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+15,0,error,E0001:invalid syntax (<unknown>, line 15)
+##########Linting Output - pylint##########
+************* Module calc
+15,0,error,E0001:invalid syntax (<unknown>, line 15)
+##########Linting Output - pylint##########
+************* Module calc
+15,0,error,E0001:invalid syntax (<unknown>, line 15)
+##########Linting Output - pylint##########
+************* Module calc
+15,0,error,E0001:invalid syntax (<unknown>, line 15)
+##########Linting Output - pylint##########
+************* Module calc
+15,0,error,E0001:invalid syntax (<unknown>, line 15)
+##########Linting Output - pylint##########
+************* Module calc
+15,0,error,E0001:invalid syntax (<unknown>, line 15)
+##########Linting Output - pylint##########
+************* Module calc
+16,0,error,E0001:invalid syntax (<unknown>, line 16)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module calc
+15,0,error,E0001:invalid syntax (<unknown>, line 15)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

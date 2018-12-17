@@ -1,0 +1,6 @@
+[2018-12-15 21:18:40.390] [renderer1] [info] no standard startup: not the explorer viewlet
+[2018-12-15 21:21:33.366] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at new t (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4310:970)
+    at e.wrapError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4314:749)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4318:93
+    at <anonymous>

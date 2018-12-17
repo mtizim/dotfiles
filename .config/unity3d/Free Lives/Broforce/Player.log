@@ -1,0 +1,2498 @@
+ERROR: ld.so: object '/home/mtizim/.steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+Setting breakpad minidump AppID = 274190
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561197974582148 [API loaded no]
+ x 1080 @ 60 Hz
+Initialize engine version: 5.5.6f1 (3fb31a95adee)
+GfxDevice: creating device client; threaded=1
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_multithread_makecurrent GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Setting maxVSyncInterval to 4
+Renderer: Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+Vendor:   Intel Open Source Technology Center
+Version:  4.5 (Core Profile) Mesa 18.0.5
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_trinary_minmax GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_A
+RB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separat
+e_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lo
+d GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_integer_mix GL_EXT_shader_s
+amples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 60221616
+AudioManager: Using PulseAudio: Default Output Device
+Begin MonoManager ReloadAssembly
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Assembly-UnityScript.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/UnityEngine.UI.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/UnityEngine.Networking.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/CommonForms.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/CommonForms.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/GifComponents.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/GifComponents.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Drawing.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Drawing.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Mono.Data.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Mono.Data.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Mono.Data.Sqlite.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Mono.Data.Sqlite.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Mono.Data.SqliteClient.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Mono.Data.SqliteClient.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Configuration.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Configuration.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Data.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Data.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.EnterpriseServices.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.EnterpriseServices.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Security.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Security.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/AlienFXManagedWrapper3.5.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/AlienFXManagedWrapper3.5.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Rewired_Core.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Rewired_Core.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Rewired_Linux_Lib.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Rewired_Linux_Lib.dll into Unity Child Domain
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Gif.Components.dll (this message is harmless)
+Loading /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Gif.Components.dll into Unity Child Domain
+- Completed reload, in  0.061 seconds
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Core.dll (this message is harmless)
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.dll (this message is harmless)
+Default vsync count 0
+requesting resize -1 x -1
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Using libudev for joystick management
+
+
+Importing game controller configs
+UnloadTime: 1.674000 ms
+Non platform assembly: data-0x491ac30 (this message is harmless)
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/data-0x491ac30.so
+Non platform assembly: data-0x4977850 (this message is harmless)
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/data-0x4977850.so
+Non platform assembly: data-0x498c4e0 (this message is harmless)
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/data-0x498c4e0.so
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/System.Xml.dll (this message is harmless)
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 466)
+
+Setup the resource manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setup the resource manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setup the resource manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setup the resource manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting language to en
+Changing real window size to 944 x 1025
+Changing real window size to 944 x 1025
+Changing real window size to 1920 x 1080
+Changing real window size to 1920 x 1080
+Changing real window size to 1920 x 1080
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Controller string was empty
+Controller string was empty
+Controller string was empty
+Controller string was empty
+UnloadTime: 2.585000 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 9.069000 ms (FindLiveObjects: 0.130000 ms CreateObjectMapping: 0.085000 ms MarkObjects: 8.734000 ms  DeleteObjects: 0.119000 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7f8300f59700 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.808000 ms
+Sound Ocject False True
+<color=lightblue>Trying to create a second instance of Interface.PersistentOverlayUI</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 12.973001 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.070000 ms MarkObjects: 12.694000 ms  DeleteObjects: 0.030000 ms)
+
+Check initial Ambience 
+distance 297.867
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.645000 ms
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 13.804000 ms (FindLiveObjects: 0.164000 ms CreateObjectMapping: 0.089000 ms MarkObjects: 13.259000 ms  DeleteObjects: 0.291000 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.636000 ms
+Sound Ocject True True
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 466)
+
+> myIdHasBeenSet
+ [GameState] _campaignName 
+campaign to load set to 
+Gamemode set to NotSet
+ [GameState] _campaignName 
+Could not find index of menu item PLAY ONLINE WITH NON STEAM USERS this menu may break if -1 not handled!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayMusic!.. try play Null ! 
+PlayMusic!.. chooseMusic  Null 
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/LightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.dll.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./LightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./libLightFX.dll.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/LightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/LightFX
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./LightFX
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./libLightFX.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/LightFX
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.dll.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./libLightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./libLightFX.dll.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/LightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.dll.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./LightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./libLightFX.dll.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/LightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/LightFX
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./LightFX
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./libLightFX.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/LightFX
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.dll.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./libLightFX.dll
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/./libLightFX.dll.so
+Fallback handler could not load library /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Mono/x86_64/libLightFX.dll
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: /home/mtizim/.steam/steam/steamapps/common/Broforce/Broforce_Data/Managed/Boo.Lang.dll (this message is harmless)
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setup the resource manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setup the resource manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setup the resource manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setup the resource manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting language to en
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6993.
+Total: 16.438000 ms (FindLiveObjects: 0.883000 ms CreateObjectMapping: 0.387000 ms MarkObjects: 15.132000 ms  DeleteObjects: 0.036000 ms)
+
+Check initial Ambience 
+[LanguageBank] Could not find key = INSERT_KEY_HERE. Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Localized key does not exist = INSERT_KEY_HERE
+load previous game
+ [GameState] _campaignName 
+campaign to load set to 
+Gamemode set to NotSet
+ [GameState] _campaignName 
+ [GameState] _campaignName 
+load previous game
+ [GameState] _campaignName 
+campaign to load set to 
+Gamemode set to NotSet
+ [GameState] _campaignName 
+ [GameState] _campaignName 
+load previous game
+ [GameState] _campaignName 
+campaign to load set to 
+Gamemode set to NotSet
+ [GameState] _campaignName 
+ [GameState] _campaignName 
+ Fader.nextScene  newJoin
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.907000 ms
+
+Unloading 356 unused Assets to reduce memory usage. Loaded Objects now: 3034.
+Total: 20.175001 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.126000 ms MarkObjects: 16.739000 ms  DeleteObjects: 2.995000 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.768000 ms
+Sound Ocject False True
+---- FORCE GARBAGE COLLECT -----
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Interface.PersistentOverlayUI</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayMusic!.. try play Null ! 
+PlayMusic!.. chooseMusic  Null 
+Inserted space because character   not found.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4416.
+Total: 17.975000 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.218000 ms MarkObjects: 17.389999 ms  DeleteObjects: 0.082000 ms)
+
+Check initial Ambience 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.573000 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4058.
+Total: 16.991001 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.121000 ms MarkObjects: 15.768001 ms  DeleteObjects: 0.758000 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.045000 ms
+Ondisable
+Sound Ocject False True
+> myIdHasBeenSet
+ [GameState] _campaignName 
+campaign to load set to 
+Gamemode set to NotSet
+ [GameState] _campaignName 
+Could not find index of menu item PLAY ONLINE WITH NON STEAM USERS this menu may break if -1 not handled!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayMusic!.. try play Null ! 
+PlayMusic!.. chooseMusic  Null 
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 327 unused Assets to reduce memory usage. Loaded Objects now: 7272.
+Total: 17.897001 ms (FindLiveObjects: 0.475000 ms CreateObjectMapping: 0.183000 ms MarkObjects: 15.428000 ms  DeleteObjects: 1.811000 ms)
+
+Check initial Ambience 
+[LanguageBank] Could not find key = INSERT_KEY_HERE. Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Localized key does not exist = INSERT_KEY_HERE
+load previous game
+ [GameState] _campaignName 
+campaign to load set to 
+Gamemode set to NotSet
+ [GameState] _campaignName 
+ [GameState] _campaignName 
+ Fader.nextScene  newJoin
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.081000 ms
+
+Unloading 356 unused Assets to reduce memory usage. Loaded Objects now: 3784.
+Total: 18.888000 ms (FindLiveObjects: 0.408000 ms CreateObjectMapping: 0.119000 ms MarkObjects: 14.991000 ms  DeleteObjects: 3.369000 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.150000 ms
+Sound Ocject False True
+---- FORCE GARBAGE COLLECT -----
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Interface.PersistentOverlayUI</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayMusic!.. try play Null ! 
+PlayMusic!.. chooseMusic  Null 
+Inserted space because character   not found.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4416.
+Total: 17.657001 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.099000 ms MarkObjects: 17.171999 ms  DeleteObjects: 0.102000 ms)
+
+Check initial Ambience 
+[JoinScreen]  Join:  PlayerNum: 0  PID: 5 z1 (Server)  Controller: 1  Name: P1
+ [GameState] _campaignName 
+Set Map to  Null 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.815000 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4058.
+Total: 17.657001 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 0.113000 ms MarkObjects: 15.992001 ms  DeleteObjects: 1.155000 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.995000 ms
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+*** Turn count progress loaded: 0
+NEW PREV PROGRESS
+NEW PROGRESS , worldLiberty: 0, worldTerror: 0, turnCount: 0, currentTerritoryName: , lastSafeTerritory: 
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Interface.PersistentOverlayUI</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ <color=#FF0000>SAVE PROGRESS! </color>  
+*** Turn count progress saved: 0
+MAKE PREVIOUS PROGRESS AND CURRENT PROGRESS EQUAL 
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+ ***********  FIRST LEVEL *************** 
+[LanguageBank] Could not find key = INSERT_KEY_HERE. Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Localized key does not exist = INSERT_KEY_HERE
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Aspect is 1.777778
+scale!! 
+ ***********  FIRST LEVEL *************** 
+ <color=#FF0000>SAVE PROGRESS! </color>  
+*** Turn count progress saved: 0
+Updated terror meter targets
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+
+Unloading 335 unused Assets to reduce memory usage. Loaded Objects now: 13523.
+Total: 27.728001 ms (FindLiveObjects: 0.864000 ms CreateObjectMapping: 0.306000 ms MarkObjects: 21.748999 ms  DeleteObjects: 4.808000 ms)
+
+Pause
+Playing Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Offline Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Reactivatig input reading
+Process action: Return to helicopter
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Pause
+Playing Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Offline Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Reactivatig input reading
+Arrived! vietnamTerrain (WorldTerritory3D)
+ <color=#FF0000>SAVE PROGRESS! </color>  vietnamTerrain
+*** Turn count progress saved: 0
+ENTER MISSION: WM_Intro(mouse)
+ [GameState] _campaignName 
+campaign to load set to 
+Gamemode set to NotSet
+ [GameState] _campaignName 
+ [GameState] _campaignName 
+Set gamestate hard mode: False
+ [GameState] _campaignName WM_Intro(mouse)
+Set start level for territory to 0
+___________ LoadNextScene 
+*--------------   SceneAndGameState   --------------*
+sceneToLoad:               MissionScreenVietnam
+campaign:                  WM_Intro(mouse)
+levelNumber:               0
+customLevelID:               
+
+sessionID:                 156
+randomSeed:                646
+
+loadCustomCampaign:        False
+loadMode:                  Campaign
+gameMode:                  Campaign
+levelEditorActive:         False
+
+publishRun:                False
+publishRunSuccessful:      False
+returnToWorldMap:          True
+
+nextXLoadOffset:           0
+nextYLoadOffset:           0
+startFromSuperCheckPoint:  False
+superCheckpointStartPos:   (0, 0)
+currentWorldMapProgress:   0.0% COMPLETE
+hard mode:   False
+hard mode:   False
+*---------------------------------------------------*
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 13.878000 ms
+
+Unloading 629 unused Assets to reduce memory usage. Loaded Objects now: 3892.
+Total: 17.408001 ms (FindLiveObjects: 0.261000 ms CreateObjectMapping: 0.109000 ms MarkObjects: 13.171000 ms  DeleteObjects: 3.866000 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.307000 ms
+Sound Ocject False True
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 32247.
+Total: 44.385998 ms (FindLiveObjects: 3.045000 ms CreateObjectMapping: 8.507999 ms MarkObjects: 28.219000 ms  DeleteObjects: 4.614000 ms)
+
+Check initial Ambience 
+PlayMusic!.. try play Null ! 
+PlayMusic!.. chooseMusic  Null 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.183000 ms
+
+Unloading 25389 unused Assets to reduce memory usage. Loaded Objects now: 3910.
+Total: 63.947998 ms (FindLiveObjects: 1.454000 ms CreateObjectMapping: 1.802000 ms MarkObjects: 10.473000 ms  DeleteObjects: 50.216999 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.266000 ms
+Ondisable
+Sound Ocject False True
+HEROS ARE INVULNERABLE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Heroes are Invulnerable: False
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+---- FORCE GARBAGE COLLECT -----
+Level Over Screen Awake
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ [GameState] _campaignName WM_Intro(mouse)
+Gamemode set to Campaign
+currentCampaign WM_Intro(mouse)
+[HeroController]  AddPlayer:  Num: 0  controller: 1  PID: 5 z1 (Server)
+-- set up player 0
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START BoondockBro(Clone) [local] (UnityEngine.GameObject)
+BoondockBro(Clone) [local] (BoondockBro)
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 443 unused Assets to reduce memory usage. Loaded Objects now: 102076.
+Total: 164.104004 ms (FindLiveObjects: 9.848000 ms CreateObjectMapping: 16.785000 ms MarkObjects: 77.924995 ms  DeleteObjects: 59.544003 ms)
+
+Check initial Ambience 
+SwitchAmbienceTo ! None
+Stop Ambience! 
+SpawnTrailingBro [156 5 z1 (Server) 50003 3 BoondockBro(Clone) (BoondockBro)]
+PlayMusic!.. try play Default
+PlayMusic!.. chooseMusic Original Level Music (Low Intensity) (FULL)
+PlayMusic! Playing intensity clip 
+Pause
+Playing Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Offline Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Reactivatig input reading
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "BoondockBro(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+Pause
+Playing Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Offline Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Reactivatig input reading
+Pause
+Playing Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Offline Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Reactivatig input reading
+>> RequestJoinGame   cntrllr: 0   requestedID: 5 z1 (Server)
+>> unusedPlayerNum  : 1
+[HeroController]  AddPlayer:  Num: 1  controller: 0  PID: 5 z1 (Server)
+-- set up player 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START BA_Broracus2(Clone) [local] (UnityEngine.GameObject)
+BA_Broracus2(Clone) [local] (BaBroracus)
+-1
+Null
+Default to drop in! 
+Lives for player 1 set to 1
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "BoondockBro(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+Pause
+Playing Players: 2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Offline Players: 2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Reactivatig input reading
+Pause
+Playing Players: 2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Offline Players: 2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+I dropeed out
+Reactivatig input reading
+Pause
+Playing Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Offline Players: 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Reactivatig input reading
+SET UP CONNOLY BRO 0
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "BillyConnoly(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZSatan(Clone)"
+ 
+(Filename:  Line: 0)
+
+MayIRescueThisBro Ack: [156 5 z1 (Server) 50012 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 2
+==== Respawn bro True
+RecallBro BoondockBro(Clone) [local] (UnityEngine.GameObject)
+RecallBro BoondockBro(Clone) [local] (UnityEngine.GameObject)
+trailingBro BoondockBro(Clone) [local] (UnityEngine.GameObject)
+>>>>>>>>>>>> SetUpHero START Brodel Walker(Clone) [local] (UnityEngine.GameObject)
+Brodel Walker(Clone) [local] (BrodellWalker)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Brodel Walker(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+MayIRescueThisBro Ack: [156 5 z1 (Server) 50015 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 3
+==== Respawn bro True
+>>>>>>>>>>>> SetUpHero START BroboCop(Clone) [local] (UnityEngine.GameObject)
+BroboCop(Clone) [local] (Brobocop)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "BroboCop(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+PerformPunchAttack 
+PerformPunchAttack 
+PerformPunchAttack 
+PerformPunchAttack 
+PerformPunchAttack 
+PerformPunchAttack 
+PerformPunchAttack 
+ Melee Followup 
+PerformPunchAttack 
+ Melee Followup 
+ Mathf.Abs(xI + xIBlast) > 300 False
+Call heli
+ATTACHED: BroboCop(Clone) [local] (Brobocop)
+Level finished 
+ADDING DEATHS TO TOTALS
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/Helicopter(Clone) [local]/HelicopterLadders/BroboCop(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+Attempting to close all cutscenes
+DetermineLevelOutcome... GameMode  Campaign levelResult Success trying to reduce load times ? True LevelEditorGUI.levelEditorActive False
+Fail!!  TryingToReduceLoadingTimes True
+Current level num: 0
+SET CURRENT TERRITORY START LEVEL TO 1
+SetCurrentTerritoryStartLevel -- currentTerritoryName = vietnamTerrain
+ <color=#FF0000>SAVE PROGRESS! </color>  vietnamTerrain
+*** Turn count progress saved: 0
+ Show Level Over Screen Awake
+Should be showing victory screen now...
+Level Result Success   Test Evan2
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Font size and style overrides are only supported for dynamic fonts.
+ 
+(Filename:  Line: 102)
+
+Ready States Not Set
+Full Refresh
+Full Refresh
+ [GameState] _campaignName WM_Intro(mouse)
+___________ LoadNextScene 
+*--------------   SceneAndGameState   --------------*
+sceneToLoad:               Test Evan2
+campaign:                  WM_Intro(mouse)
+levelNumber:               1
+customLevelID:               
+
+sessionID:                 157
+randomSeed:                72900
+
+loadCustomCampaign:        False
+loadMode:                  Campaign
+gameMode:                  Campaign
+levelEditorActive:         False
+
+publishRun:                False
+publishRunSuccessful:      False
+returnToWorldMap:          True
+
+nextXLoadOffset:           0
+nextYLoadOffset:           0
+startFromSuperCheckPoint:  False
+superCheckpointStartPos:   (-1, -1)
+currentWorldMapProgress:   0.0% COMPLETE
+hard mode:   False
+hard mode:   False
+*---------------------------------------------------*
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.139000 ms
+
+Unloading 993 unused Assets to reduce memory usage. Loaded Objects now: 81746.
+Total: 98.976997 ms (FindLiveObjects: 5.245000 ms CreateObjectMapping: 9.123000 ms MarkObjects: 72.515007 ms  DeleteObjects: 12.094001 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.132000 ms
+Ondisable
+Sound Ocject False True
+HEROS ARE INVULNERABLE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Heroes are Invulnerable: False
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+---- FORCE GARBAGE COLLECT -----
+Level Over Screen Awake
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Gamemode set to Campaign
+currentCampaign WM_Intro(mouse)
+[HeroController]  AddPlayer:  Num: 0  controller: 1  PID: 5 z1 (Server)
+-- set up player 0
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START Indiana Brones(Clone) [local] (UnityEngine.GameObject)
+Indiana Brones(Clone) [local] (IndianaBrones)
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 1131 unused Assets to reduce memory usage. Loaded Objects now: 131667.
+Total: 158.481995 ms (FindLiveObjects: 21.218000 ms CreateObjectMapping: 8.947000 ms MarkObjects: 101.653999 ms  DeleteObjects: 26.663000 ms)
+
+Check initial Ambience 
+SwitchAmbienceTo ! None
+Stop Ambience! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+PlayMusic!.. try play Default
+PlayMusic!.. chooseMusic Original Level Music (Low Intensity) (FULL)
+PlayMusic! Playing intensity clip 
+ReadPixels was called to read pixels from system frame buffer, while not inside drawing frame.
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Indiana Brones(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Collapse Action Start 
+CreateScriptedCollapse with block Bridge(Clone)_24_18
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+MayIRescueThisBro Ack: [157 5 z1 (Server) 50004 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 2
+==== Respawn bro True
+>>>>>>>>>>>> SetUpHero START Bro Hard(Clone) [local] (UnityEngine.GameObject)
+Bro Hard(Clone) [local] (BroHard)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Bro Hard(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START Brominator(Clone) [local] (UnityEngine.GameObject)
+Brominator(Clone) [local] (Brominator)
+0
+FlagPole(Clone) (CheckPoint)
+Default to drop in! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Brominator(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+ Melee Followup 
+MayIRescueThisBro Ack: [157 5 z1 (Server) 50009 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 2
+==== Respawn bro True
+>>>>>>>>>>>> SetUpHero START Nebro(Clone) [local] (UnityEngine.GameObject)
+Nebro(Clone) [local] (Nebro)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Nebro(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZSatan(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+MayIRescueThisBro Ack: [157 5 z1 (Server) 50012 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 3
+==== Respawn bro True
+>>>>>>>>>>>> SetUpHero START Ash Brolliams(Clone) [local] (UnityEngine.GameObject)
+Ash Brolliams(Clone) [local] (AshBrolliams)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Ash Brolliams(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+ Melee Followup 
+ Melee Followup 
+ Melee Followup 
+ Melee Followup 
+MayIRescueThisBro Ack: [157 5 z1 (Server) 50015 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 4
+==== Respawn bro True
+>>>>>>>>>>>> SetUpHero START DirtyHarry(Clone) [local] (UnityEngine.GameObject)
+DirtyHarry(Clone) [local] (DirtyHarry)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DirtyHarry(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+Start punch! 
+Start punch! 
+Fire Delay ! 1.46
+Start punch! 
+Start punch! 
+Start punch! 
+Call heli
+ATTACHED: DirtyHarry(Clone) [local] (DirtyHarry)
+Level finished 
+ADDING DEATHS TO TOTALS
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/Helicopter(Clone) [local]/HelicopterLadders/DirtyHarry(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+Attempting to close all cutscenes
+DetermineLevelOutcome... GameMode  Campaign levelResult Success trying to reduce load times ? True LevelEditorGUI.levelEditorActive False
+Fail!!  TryingToReduceLoadingTimes True
+Current level num: 1
+SET CURRENT TERRITORY START LEVEL TO 2
+SetCurrentTerritoryStartLevel -- currentTerritoryName = vietnamTerrain
+ <color=#FF0000>SAVE PROGRESS! </color>  vietnamTerrain
+*** Turn count progress saved: 0
+ Show Level Over Screen Awake
+Should be showing victory screen now...
+Level Result Success   Test Evan2
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ready States Not Set
+Full Refresh
+Full Refresh
+ [GameState] _campaignName WM_Intro(mouse)
+___________ LoadNextScene 
+*--------------   SceneAndGameState   --------------*
+sceneToLoad:               Test Evan2
+campaign:                  WM_Intro(mouse)
+levelNumber:               2
+customLevelID:               
+
+sessionID:                 158
+randomSeed:                15284
+
+loadCustomCampaign:        False
+loadMode:                  Campaign
+gameMode:                  Campaign
+levelEditorActive:         False
+
+publishRun:                False
+publishRunSuccessful:      False
+returnToWorldMap:          True
+
+nextXLoadOffset:           0
+nextYLoadOffset:           0
+startFromSuperCheckPoint:  False
+superCheckpointStartPos:   (-1, -1)
+currentWorldMapProgress:   0.0% COMPLETE
+hard mode:   False
+hard mode:   False
+*---------------------------------------------------*
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.416000 ms
+
+Unloading 634 unused Assets to reduce memory usage. Loaded Objects now: 83111.
+Total: 103.079994 ms (FindLiveObjects: 4.495000 ms CreateObjectMapping: 7.341000 ms MarkObjects: 80.581001 ms  DeleteObjects: 10.662000 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.476000 ms
+Ondisable
+Sound Ocject False True
+HEROS ARE INVULNERABLE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Heroes are Invulnerable: False
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+---- FORCE GARBAGE COLLECT -----
+Level Over Screen Awake
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Gamemode set to Campaign
+currentCampaign WM_Intro(mouse)
+[HeroController]  AddPlayer:  Num: 0  controller: 1  PID: 5 z1 (Server)
+-- set up player 0
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START Bromander(Clone) [local] (UnityEngine.GameObject)
+Bromander(Clone) [local] (Brommando)
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 2003 unused Assets to reduce memory usage. Loaded Objects now: 126249.
+Total: 145.616989 ms (FindLiveObjects: 20.983000 ms CreateObjectMapping: 8.305000 ms MarkObjects: 96.608994 ms  DeleteObjects: 19.719002 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Check initial Ambience 
+SwitchAmbienceTo ! None
+Stop Ambience! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+PlayMusic!.. try play Default
+PlayMusic!.. chooseMusic Original Level Music (Low Intensity) (FULL)
+PlayMusic! Playing intensity clip 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+ReadPixels was called to read pixels from system frame buffer, while not inside drawing frame.
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Bromander(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+ Melee Followup 
+ Melee Followup 
+ Melee Followup 
+ Melee Followup 
+Lives for player 0 set to 0
+Level finished 
+ADDING DEATHS TO TOTALS
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Attempting to close all cutscenes
+DetermineLevelOutcome... GameMode  Campaign levelResult Fail trying to reduce load times ? True LevelEditorGUI.levelEditorActive False
+Mission failure! ... trying to reduce loading times ? True  LevelEditorGUI.levelEditorActive  False
+ Show Level Over Screen Awake
+ Persist Blocks!!! ... dontPersistedPastLevelLoadThisLevel ? False
+insntantiate persistant block null
+Full Refresh
+Full Refresh
+ [GameState] _campaignName WM_Intro(mouse)
+___________ LoadNextScene 
+*--------------   SceneAndGameState   --------------*
+sceneToLoad:               Test Evan2
+campaign:                  WM_Intro(mouse)
+levelNumber:               2
+customLevelID:               
+
+sessionID:                 159
+randomSeed:                -90586
+
+loadCustomCampaign:        False
+loadMode:                  Campaign
+gameMode:                  Campaign
+levelEditorActive:         False
+
+publishRun:                False
+publishRunSuccessful:      False
+returnToWorldMap:          True
+
+nextXLoadOffset:           0
+nextYLoadOffset:           0
+startFromSuperCheckPoint:  False
+superCheckpointStartPos:   (-1, -1)
+currentWorldMapProgress:   0.0% COMPLETE
+hard mode:   False
+hard mode:   False
+*---------------------------------------------------*
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.113000 ms
+
+Unloading 309 unused Assets to reduce memory usage. Loaded Objects now: 119653.
+Total: 118.624001 ms (FindLiveObjects: 7.001000 ms CreateObjectMapping: 7.630000 ms MarkObjects: 92.360001 ms  DeleteObjects: 11.633000 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.433000 ms
+Ondisable
+Sound Ocject False True
+HEROS ARE INVULNERABLE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Heroes are Invulnerable: False
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+---- FORCE GARBAGE COLLECT -----
+Level Over Screen Awake
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Gamemode set to Campaign
+currentCampaign WM_Intro(mouse)
+[HeroController]  AddPlayer:  Num: 0  controller: 1  PID: 5 z1 (Server)
+-- set up player 0
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START McBrover(Clone) [local] (UnityEngine.GameObject)
+McBrover(Clone) [local] (McBrover)
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 535 unused Assets to reduce memory usage. Loaded Objects now: 126287.
+Total: 142.975998 ms (FindLiveObjects: 19.778000 ms CreateObjectMapping: 8.436000 ms MarkObjects: 96.621002 ms  DeleteObjects: 18.139999 ms)
+
+Check initial Ambience 
+SwitchAmbienceTo ! None
+Stop Ambience! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+PlayMusic!.. try play Default
+PlayMusic!.. chooseMusic Original Level Music (Low Intensity) (FULL)
+PlayMusic! Playing intensity clip 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Start punch! 
+Start punch! 
+ Melee Followup 
+Lives for player 0 set to 0
+Level finished 
+ADDING DEATHS TO TOTALS
+ReadPixels was called to read pixels from system frame buffer, while not inside drawing frame.
+Attempting to close all cutscenes
+DetermineLevelOutcome... GameMode  Campaign levelResult Fail trying to reduce load times ? True LevelEditorGUI.levelEditorActive False
+Mission failure! ... trying to reduce loading times ? True  LevelEditorGUI.levelEditorActive  False
+ Show Level Over Screen Awake
+ Persist Blocks!!! ... dontPersistedPastLevelLoadThisLevel ? False
+ Persist old terrain DirtBlock5(Clone)_20_9 replaced with SteelBlock(Clone)_20_9  instead of SteelBlock(Clone)_20_9
+ Persist old terrain DirtBlock5(Clone)_21_9 replaced with SteelBlock(Clone)_21_9  instead of SteelBlock(Clone)_21_9
+Full Refresh
+Full Refresh
+ [GameState] _campaignName WM_Intro(mouse)
+___________ LoadNextScene 
+*--------------   SceneAndGameState   --------------*
+sceneToLoad:               Test Evan2
+campaign:                  WM_Intro(mouse)
+levelNumber:               2
+customLevelID:               
+
+sessionID:                 160
+randomSeed:                88785
+
+loadCustomCampaign:        False
+loadMode:                  Campaign
+gameMode:                  Campaign
+levelEditorActive:         False
+
+publishRun:                False
+publishRunSuccessful:      False
+returnToWorldMap:          True
+
+nextXLoadOffset:           0
+nextYLoadOffset:           0
+startFromSuperCheckPoint:  False
+superCheckpointStartPos:   (-1, -1)
+currentWorldMapProgress:   0.0% COMPLETE
+hard mode:   False
+hard mode:   False
+*---------------------------------------------------*
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.239000 ms
+
+Unloading 276 unused Assets to reduce memory usage. Loaded Objects now: 119780.
+Total: 122.139999 ms (FindLiveObjects: 9.315000 ms CreateObjectMapping: 9.822000 ms MarkObjects: 91.512001 ms  DeleteObjects: 11.490001 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.461000 ms
+Ondisable
+Sound Ocject False True
+HEROS ARE INVULNERABLE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Heroes are Invulnerable: False
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+---- FORCE GARBAGE COLLECT -----
+Level Over Screen Awake
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Gamemode set to Campaign
+currentCampaign WM_Intro(mouse)
+[HeroController]  AddPlayer:  Num: 0  controller: 1  PID: 5 z1 (Server)
+-- set up player 0
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START Brononymous(Clone) [local] (UnityEngine.GameObject)
+Brononymous(Clone) [local] (Brononymous)
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 546 unused Assets to reduce memory usage. Loaded Objects now: 126382.
+Total: 143.884003 ms (FindLiveObjects: 20.743000 ms CreateObjectMapping: 8.228999 ms MarkObjects: 96.611000 ms  DeleteObjects: 18.301001 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Check initial Ambience 
+SwitchAmbienceTo ! None
+Stop Ambience! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+PlayMusic!.. try play Default
+PlayMusic!.. chooseMusic Original Level Music (Low Intensity) (FULL)
+PlayMusic! Playing intensity clip 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+ReadPixels was called to read pixels from system frame buffer, while not inside drawing frame.
+Lives for player 0 set to 0
+Level finished 
+ADDING DEATHS TO TOTALS
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Attempting to close all cutscenes
+DetermineLevelOutcome... GameMode  Campaign levelResult Fail trying to reduce load times ? True LevelEditorGUI.levelEditorActive False
+Mission failure! ... trying to reduce loading times ? True  LevelEditorGUI.levelEditorActive  False
+NO!! 
+ Show Level Over Screen Awake
+ Persist Blocks!!! ... dontPersistedPastLevelLoadThisLevel ? False
+ Persist old terrain DirtBlock5(Clone)_20_9 replaced with SteelBlock(Clone)_20_9 replaced with SteelBlock(Clone)_20_9  instead of SteelBlock(Clone)_20_9
+Full Refresh
+Full Refresh
+ [GameState] _campaignName WM_Intro(mouse)
+___________ LoadNextScene 
+*--------------   SceneAndGameState   --------------*
+sceneToLoad:               Test Evan2
+campaign:                  WM_Intro(mouse)
+levelNumber:               2
+customLevelID:               
+
+sessionID:                 161
+randomSeed:                13918
+
+loadCustomCampaign:        False
+loadMode:                  Campaign
+gameMode:                  Campaign
+levelEditorActive:         False
+
+publishRun:                False
+publishRunSuccessful:      False
+returnToWorldMap:          True
+
+nextXLoadOffset:           0
+nextYLoadOffset:           0
+startFromSuperCheckPoint:  False
+superCheckpointStartPos:   (-1, -1)
+currentWorldMapProgress:   0.0% COMPLETE
+hard mode:   False
+hard mode:   False
+*---------------------------------------------------*
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.349000 ms
+
+Unloading 310 unused Assets to reduce memory usage. Loaded Objects now: 120110.
+Total: 118.624001 ms (FindLiveObjects: 6.859000 ms CreateObjectMapping: 7.448000 ms MarkObjects: 92.945999 ms  DeleteObjects: 11.370999 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.336000 ms
+Ondisable
+Sound Ocject False True
+HEROS ARE INVULNERABLE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Heroes are Invulnerable: False
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+---- FORCE GARBAGE COLLECT -----
+Level Over Screen Awake
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Gamemode set to Campaign
+currentCampaign WM_Intro(mouse)
+[HeroController]  AddPlayer:  Num: 0  controller: 1  PID: 5 z1 (Server)
+-- set up player 0
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START Rambo(Clone) [local] (UnityEngine.GameObject)
+Rambo(Clone) [local] (Rambro)
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 537 unused Assets to reduce memory usage. Loaded Objects now: 126725.
+Total: 143.016998 ms (FindLiveObjects: 19.288000 ms CreateObjectMapping: 8.046000 ms MarkObjects: 97.278999 ms  DeleteObjects: 18.403999 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Check initial Ambience 
+SwitchAmbienceTo ! None
+Stop Ambience! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+PlayMusic!.. try play Default
+PlayMusic!.. chooseMusic Original Level Music (Low Intensity) (FULL)
+PlayMusic! Playing intensity clip 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+ReadPixels was called to read pixels from system frame buffer, while not inside drawing frame.
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Rambo(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+MayIRescueThisBro Ack: [161 5 z1 (Server) 50004 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 2
+==== Respawn bro True
+Announce Brochete
+Loaded Cutscene  Brochete
+>>>>>>>>>>>> SetUpHero START Brochete(Clone) [local] (UnityEngine.GameObject)
+Brochete(Clone) [local] (Brochete)
+Set Rescue Bro Hobro (RescueBro)
+Getting Letterbox camera: LetterboxCamera
+LetterboxCamera status 1: False
+LetterboxCamera status 2: False
+Starting Cutscene: Brochete
+Inserted space because character   not found.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Inserted space because character   not found.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ Pause Music
+Updated orthgraphic size
+SetIntermissionPause True
+----- VoteToSkipRPC 
+_isFinished True
+--------- False
+skip
+SetIntermissionPause False
+ Resume Music
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Brochete(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+ Melee Followup 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+ Melee Followup 
+Lives for player 0 set to 1
+ Mathf.Abs(xI + xIBlast) > 300 False
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START Blade(Clone) [local] (UnityEngine.GameObject)
+Blade(Clone) [local] (Blade)
+3
+FlagPole(Clone) (CheckPoint)
+Default to drop in! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Blade(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+StartOverriddenMelee 0
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+StartOverriddenMelee 0
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+StartOverriddenMelee 0
+ Mathf.Abs(xI + xIBlast) > 300 True
+ Mathf.Abs(xI + xIBlast) > 300 False
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZSatan(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+MayIRescueThisBro Ack: [161 5 z1 (Server) 50009 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 2
+==== Respawn bro True
+>>>>>>>>>>>> SetUpHero START Bro Dredd(Clone) [local] (UnityEngine.GameObject)
+Bro Dredd(Clone) [local] (BroDredd)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Bro Dredd(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START Indiana Brones(Clone) [local] (UnityEngine.GameObject)
+Indiana Brones(Clone) [local] (IndianaBrones)
+3
+FlagPole(Clone) (CheckPoint)
+Default to drop in! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Indiana Brones(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+Lives for player 0 set to 0
+Level finished 
+ADDING DEATHS TO TOTALS
+Attempting to close all cutscenes
+DetermineLevelOutcome... GameMode  Campaign levelResult Fail trying to reduce load times ? True LevelEditorGUI.levelEditorActive False
+Mission failure! ... trying to reduce loading times ? True  LevelEditorGUI.levelEditorActive  False
+ Show Level Over Screen Awake
+ Persist Blocks!!! ... dontPersistedPastLevelLoadThisLevel ? False
+ Persist old terrain WallBrick1(Clone)_57_27 replaced with SteelBlock(Clone)_57_27  instead of SteelBlock(Clone)_57_27
+ Persist old terrain WallBrick1(Clone)_59_27 replaced with SteelBlock(Clone)_59_27  instead of SteelBlock(Clone)_59_27
+Full Refresh
+Full Refresh
+ [GameState] _campaignName WM_Intro(mouse)
+___________ LoadNextScene 
+*--------------   SceneAndGameState   --------------*
+sceneToLoad:               Test Evan2
+campaign:                  WM_Intro(mouse)
+levelNumber:               2
+customLevelID:               
+
+sessionID:                 162
+randomSeed:                62007
+
+loadCustomCampaign:        False
+loadMode:                  Campaign
+gameMode:                  Campaign
+levelEditorActive:         False
+
+publishRun:                False
+publishRunSuccessful:      False
+returnToWorldMap:          True
+
+nextXLoadOffset:           0
+nextYLoadOffset:           0
+startFromSuperCheckPoint:  False
+superCheckpointStartPos:   (-1, -1)
+currentWorldMapProgress:   0.0% COMPLETE
+hard mode:   False
+hard mode:   False
+*---------------------------------------------------*
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.526000 ms
+
+Unloading 430 unused Assets to reduce memory usage. Loaded Objects now: 123127.
+Total: 125.887009 ms (FindLiveObjects: 10.370000 ms CreateObjectMapping: 8.084000 ms MarkObjects: 95.615997 ms  DeleteObjects: 11.815001 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.520000 ms
+Ondisable
+Sound Ocject False True
+HEROS ARE INVULNERABLE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Heroes are Invulnerable: False
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+---- FORCE GARBAGE COLLECT -----
+Level Over Screen Awake
+<color=lightblue>Trying to create a second instance of Localisation.ResourceManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.DynamicContentLoader</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<color=lightblue>Trying to create a second instance of Localisation.LanguageManager</color>
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Gamemode set to Campaign
+currentCampaign WM_Intro(mouse)
+[HeroController]  AddPlayer:  Num: 0  controller: 1  PID: 5 z1 (Server)
+-- set up player 0
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START BA_Broracus2(Clone) [local] (UnityEngine.GameObject)
+BA_Broracus2(Clone) [local] (BaBroracus)
+[LanguageBank] Could not find key = . Returning default value for type.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 572 unused Assets to reduce memory usage. Loaded Objects now: 128726.
+Total: 147.451996 ms (FindLiveObjects: 20.291000 ms CreateObjectMapping: 8.788000 ms MarkObjects: 99.815002 ms  DeleteObjects: 18.557999 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Check initial Ambience 
+SwitchAmbienceTo ! None
+Stop Ambience! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+PlayMusic!.. try play Default
+PlayMusic!.. chooseMusic Original Level Music (Low Intensity) (FULL)
+PlayMusic! Playing intensity clip 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+ReadPixels was called to read pixels from system frame buffer, while not inside drawing frame.
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "BA_Broracus2(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+MayIRescueThisBro Ack: [162 5 z1 (Server) 50004 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 2
+==== Respawn bro True
+>>>>>>>>>>>> SetUpHero START Brodel Walker(Clone) [local] (UnityEngine.GameObject)
+Brodel Walker(Clone) [local] (BrodellWalker)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Brodel Walker(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+Lives for player 0 set to 1
+==== Respawn bro False
+>>>>>>>>>>>> SetUpHero START BroboCop(Clone) [local] (UnityEngine.GameObject)
+BroboCop(Clone) [local] (Brobocop)
+2
+FlagPole(Clone) (CheckPoint)
+Default to drop in! 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "BroboCop(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZSatan(Clone)"
+ 
+(Filename:  Line: 0)
+
+ Mathf.Abs(xI + xIBlast) > 300 False
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMook(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+PerformPunchAttack 
+MayIRescueThisBro Ack: [162 5 z1 (Server) 50011 0 ] : True(MayIRescueThisBro)
+Extra Bro Freed
+Lives for player 0 set to 2
+==== Respawn bro True
+>>>>>>>>>>>> SetUpHero START Ash Brolliams(Clone) [local] (UnityEngine.GameObject)
+Ash Brolliams(Clone) [local] (AshBrolliams)
+Set Rescue Bro Hobro (RescueBro)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Ash Brolliams(Clone) [local]"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "MapController/ZMookSuicide(Clone)"
+ 
+(Filename:  Line: 0)
+
+raycastHit Door Jungle(Clone) (UnityEngine.BoxCollider)
+ Mathf.Abs(xI + xIBlast) > 300 False
+Call heli
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

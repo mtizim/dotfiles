@@ -1,0 +1,8 @@
+alias ..="cd .."
+alias suspend="systemctl suspend"
+alias shutdown="shutdown"
+alias restart="shutdown now -r"
+alias update="sudo apt update && sudo apt upgrade"
+alias dist-upgrade="sudo apt update && sudo apt dist-upgrade"
+alias py="python3"
+alias code="code -n"

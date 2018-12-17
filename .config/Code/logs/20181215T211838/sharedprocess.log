@@ -1,0 +1,18 @@
+[2018-12-15 21:18:42.158] [sharedprocess] [info] main {"machineId":"4bdb8d7b19c5cb9494144abd9b41f239f902356e82df9543977976eb05d35d31"}
+[2018-12-15 21:18:42.213] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-15 21:18:42.230] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-15 21:18:42.238] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-15 21:18:42.268] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-15 21:18:42.269] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-15 21:18:43.751] [sharedprocess] [info] Installing extension: python
+[2018-12-15 21:18:43.762] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-15 21:18:50.914] [sharedprocess] [info] Downloaded extension: python /tmp/0e1a498f-9883-4785-8513-ac2ecd576c1d
+[2018-12-15 21:18:51.707] [sharedprocess] [info] Extracted extension to /home/mtizim/.vscode/extensions/.ms-python.python-2018.12.1: ms-python.python-2018.12.1
+[2018-12-15 21:18:51.707] [sharedprocess] [info] Renamed to /home/mtizim/.vscode/extensions/ms-python.python-2018.12.1
+[2018-12-15 21:18:51.709] [sharedprocess] [info] Installation completed. ms-python.python-2018.12.1
+[2018-12-15 21:18:51.723] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2018-12-15 21:19:21.975] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-15 21:19:22.033] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-15 21:19:22.163] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-12-15 21:19:22.380] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-15 21:20:33.660] [sharedprocess] [info] Scanned user extensions: 1

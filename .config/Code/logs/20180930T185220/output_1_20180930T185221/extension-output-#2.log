@@ -1,0 +1,291 @@
+Starting Jedi Python language engine.
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module rpn
+21,12,warning,W0612:Unused variable 'p'
+
+-------------------------------------------------------------------
+Your code has been rated at 9.57/10 (previous run: 10.00/10, -0.43)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.57/10, +0.43)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module rpn
+6,0,error,E0001:invalid syntax (<unknown>, line 6)
+##########Linting Output - pylint##########
+************* Module rpn
+7,0,error,E0001:invalid syntax (<unknown>, line 7)
+##########Linting Output - pylint##########
+************* Module rpn
+7,0,error,E0001:invalid syntax (<unknown>, line 7)
+##########Linting Output - pylint##########
+************* Module rpn
+10,0,error,E0001:invalid syntax (<unknown>, line 10)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module rpn
+10,0,error,E0001:invalid syntax (<unknown>, line 10)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module rpn
+35,0,error,E0001:unexpected EOF while parsing (<unknown>, line 35)
+##########Linting Output - pylint##########
+************* Module rpn
+10,0,error,E0001:invalid syntax (<unknown>, line 10)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+12,0,error,E0001:invalid syntax (<unknown>, line 12)
+##########Linting Output - pylint##########
+************* Module rpn
+10,8,warning,W0612:Unused variable 'i'
+
+-------------------------------------------------------------------
+Your code has been rated at 9.69/10 (previous run: 10.00/10, -0.31)
+
+##########Linting Output - pylint##########
+************* Module rpn
+10,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.69/10 (previous run: 9.69/10, +0.00)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.69/10, +0.31)
+
+##########Linting Output - pylint##########
+************* Module rpn
+10,8,warning,W0612:Unused variable 'i'
+
+-------------------------------------------------------------------
+Your code has been rated at 9.70/10 (previous run: 10.00/10, -0.30)
+
+##########Linting Output - pylint##########
+************* Module rpn
+10,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.70/10 (previous run: 9.70/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module rpn
+10,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.70/10 (previous run: 9.70/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module rpn
+14,0,error,E0001:invalid syntax (<unknown>, line 14)
+##########Linting Output - pylint##########
+************* Module rpn
+14,0,error,E0001:invalid syntax (<unknown>, line 14)
+##########Linting Output - pylint##########
+************* Module rpn
+14,0,error,E0001:invalid syntax (<unknown>, line 14)
+##########Linting Output - pylint##########
+************* Module rpn
+16,0,error,E0001:invalid syntax (<unknown>, line 16)
+##########Linting Output - pylint##########
+************* Module rpn
+17,0,error,E0001:invalid syntax (<unknown>, line 17)
+##########Linting Output - pylint##########
+************* Module rpn
+16,0,error,E0001:invalid syntax (<unknown>, line 16)
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.70/10, +0.30)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module rpn
+44,0,error,E0001:invalid syntax (<unknown>, line 44)
+##########Linting Output - pylint##########
+************* Module rpn
+44,0,error,E0001:invalid syntax (<unknown>, line 44)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
