@@ -1,0 +1,6 @@
+# .config/rofi/config.rasi
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
+window {
+y-offset: 64px;
+}

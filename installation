@@ -9,7 +9,7 @@
 
 # Install i3-gaps, rofi, etc
 
-sudo pacman -S i3-gaps compton unclutter feh i3status volumeicon xclip compton lxappearance lxterminal
+sudo pacman -S i3-gaps compton unclutter feh i3status volumeicon xclip picom lxappearance lxterminal
 sudo pamac build rofi-greenclip
 sudo pamac build rofi-file-browser-extended-git
 sudo pamac build rofi-calc
@@ -44,6 +44,11 @@ timedatectl set-ntp true
 # install necessary packages
 
 # this is vscode-oss
+# probably neet fo use this ->
+# https://stackoverflow.com/questions/64463768/cant-find-certain-extensions-in-code-ossopen-source-variant-of-visual-studio-c
 # sync settings with the settings-sync extension
 pacman -S code
+
+
+
 

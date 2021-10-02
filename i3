@@ -186,7 +186,7 @@ focus_follows_mouse no
 for_window [class="^.*"] border pixel 0
 gaps inner 8
 smart_gaps on
-exec --no-startup-id compton -b --config ~/.config/compton.conf --vsync opengl-swc --backend glx
+exec --no-startup-id picom -b --config ~/.config/picom.conf
 exec --no-startup-id feh --bg-fill --randomize ~/wallpapers
 bindsym $mod+b exec --no-startup-id feh --bg-fill --randomize ~/wallpapers
 exec --no-startup-id unclutter -idle 1
