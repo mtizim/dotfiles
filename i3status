@@ -1,0 +1,27 @@
+# .config/i3status/config
+general {
+        colors = true
+        interval = 5
+}
+
+order += "disk /"
+order += "memory"
+order += "tztime local"
+
+
+tztime local {
+        format = " %Y-%m-%d %H:%M:%S"
+}
+
+disk "/" {
+        format = " Disk: %free "
+}
+
+memory {
+        format = " Memory used: %used "
+        threshold_degraded = "10%"
+        format_degraded = "MEMORY: %free"
+}
+
+
+
