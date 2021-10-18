@@ -10,9 +10,9 @@
 # Install i3-gaps, rofi, etc
 
 sudo pacman -S i3-gaps compton unclutter feh i3status volumeicon xclip picom lxappearance lxterminal
-sudo pamac build rofi-greenclip
-sudo pamac build rofi-file-browser-extended-git
-sudo pamac build rofi-calc
+pamac build rofi-greenclip
+pamac build rofi-file-browser-extended-git
+pamac build rofi-calc
 
 # use lxappearance to set a theme
 # use rofi-theme-selector to choose a theme (gruvbox dark hard)
@@ -51,4 +51,16 @@ pacman -S code
 
 
 
+# install proprietary drivers
+# https://wiki.manjaro.org/index.php/Configure_NVIDIA_(non-free)_settings_and_load_them_on_Startup
 
+
+# install spotify, spicetify and the likes
+pamac build spotify spicetify-cli spicetify-themes-git
+
+#  ! https://github.com/khanhas/spicetify-cli/wiki/Installation#spotify-installed-from-aur
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
+
+# install this:
+https://github.com/davatorium/rofi-scripts/tree/master/rofi-finder
