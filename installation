@@ -13,6 +13,16 @@ sudo pacman -S i3-gaps compton unclutter feh i3status volumeicon xclip picom lxa
 pamac build rofi-greenclip
 pamac build rofi-file-browser-extended-git
 pamac build rofi-calc
+# noise filtering
+pamac build noisetorch
+# equalizer
+# install pipewire and easyeffects
+# for pulseaudio comp layer:
+sudo pacman -S pipewire-pulse
+# easyeffects:
+sudo pacman -S easyeffects
+# follow instructions from https://github.com/jaakkopasanen/AutoEq
+# for perfect eq
 
 # use lxappearance to set a theme
 # use rofi-theme-selector to choose a theme (gruvbox dark hard)
@@ -44,7 +54,7 @@ timedatectl set-ntp true
 # install necessary packages
 
 # this is vscode-oss
-# probably neet fo use this ->
+# probably need fo use this ->
 # https://stackoverflow.com/questions/64463768/cant-find-certain-extensions-in-code-ossopen-source-variant-of-visual-studio-c
 # sync settings with the settings-sync extension
 pacman -S code
@@ -64,3 +74,7 @@ sudo chmod a+wr /opt/spotify/Apps -R
 
 # install this:
 https://github.com/davatorium/rofi-scripts/tree/master/rofi-finder
+
+# install lutris
+sudo pacman -S lutris
+# install the rofi launcher https://github.com/mtizim/rofi-lutris

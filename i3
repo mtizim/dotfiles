@@ -174,6 +174,7 @@ bar {
         tray_output primary
 }
 
+exec_always --no-startup-id easyeffects --gapplication-service
 
 exec --no-startup-id volumeicon
 exec_always --no-startup-id greenclip daemon
@@ -200,4 +201,6 @@ bindsym $mod+d exec rofi -drun -show run -rnow -run-command "bash -i -c '{cmd}'"
 bindsym $mod+f exec rofi  -show find -modi find:~/.local/share/rofi/finder.sh
 default_border pixel 0
 default_floating_border pixel 0
-bindsym Print exec flameshot gui
+
+
+exec_always --no-startup-id noisetorch -i
