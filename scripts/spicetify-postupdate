@@ -8,4 +8,5 @@ spicetify config current_theme Dribbblish color_scheme base
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
 spicetify config color_scheme Beach-Sunset
 spicetify config extensions fullAppDisplay.js
+spicetify config extensions shuffle+.js
 spicetify apply
