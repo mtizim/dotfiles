@@ -173,7 +173,7 @@ bar {
         status_command i3status
         tray_output primary
 }
-exec $HOME/.screenlayout/layout.sh
+exec  $HOME/.screenlayout/layout.sh
 
 exec_always --no-startup-id easyeffects --gapplication-service
 
@@ -183,7 +183,7 @@ focus_follows_mouse no
 for_window [class="^.*"] border pixel 0
 gaps inner 8
 smart_gaps on
-exec --no-startup-id picom  0b --config ~/.config/picom.conf
+exec --no-startup-id picom  -b --config ~/.config/picom.conf
 exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/
 bindsym $mod+b exec --no-startup-id feh --bg-fill --randomize ~/wallpapers
 exec --no-startup-id unclutter -idle 1
@@ -196,7 +196,7 @@ bindsym $mod+q exec rofi -show calc -modi calc -no-show-match -no-sort -calc-com
 bindsym $mod+t exec rofi-lutris -show calc -modi calc -no-show-match -no-sort -calc-command "echo '{result}' | xclip -selection clipboard"
 bindsym $mod+s exec rofi -show file-browser-extended -modi file-browser-extended   -file-browser-icon-theme "Adwaita"   -file-browser-hide-hidden-symbol "[-.] "   -file-browser-show-hidden-symbol ''   -file-browser-path-sep "/"   -file-browser-up-text "../" -display-file-browser-extended 'browser'
 
-exec greenclip clear
+exec --no-startup-id greenclip clear
 bindsym $mod+c exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 bindsym $mod+x exec pkill greenclip && greenclip clear && greenclip daemon &
 bindsym $mod+d exec rofi -drun -show run -rnow -run-command "bash -i -c '{cmd}'"
@@ -205,6 +205,5 @@ default_border pixel 0
 default_floating_border pixel 0
 
 exec --no-startup-id noisetorch -i
-
 bindsym Print exec shutter -s
 bindsym $mod+Print exec shutter -w
