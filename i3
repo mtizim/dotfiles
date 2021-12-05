@@ -29,7 +29,7 @@ font pango:monospace 15
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec lxterminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -173,7 +173,7 @@ bar {
         status_command i3status
         tray_output primary
 }
-exec  $HOME/.screenlayout/layout.sh
+exec  --no-startup-id $HOME/.screenlayout/layout.sh
 
 exec_always --no-startup-id easyeffects --gapplication-service
 

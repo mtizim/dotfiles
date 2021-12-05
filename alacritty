@@ -1,0 +1,40 @@
+# $HOME/.config/alacritty/alacritty,yml
+key_bindings:
+  - { key: N,   mods: Control|Shift, action: SpawnNewInstance }
+
+font:
+  size: 14
+
+history: 1000000
+
+cursor:
+ thickness: 0.05
+
+colors:
+  primary:
+    background: '#1e1e1e'
+    foreground: '#e6d4a3'
+
+  cursor:
+    text:   '#1e1e1e'
+    cursor: '#e6d4a3'
+
+  normal:
+    black:   '#1e1e1e'
+    red:     '#be0f17'
+    green:   '#868715'
+    yellow:  '#cc881a'
+    blue:    '#377375'
+    magenta: '#a04b73'
+    cyan:    '#578e57'
+    white:   '#978771'
+
+  bright:
+    black:   '#7f7061'
+    red:     '#f73028'
+    green:   '#7db669'
+    yellow:  '#f7b125'
+    blue:    '#7eaac7'
+    magenta: '#c77089'
+    cyan:    '#719586'
+    white:   '#e6d4a3'
