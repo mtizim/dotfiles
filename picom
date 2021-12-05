@@ -1,23 +1,24 @@
 # .config/picom.conf
-shadow-exclude = [ "class_g = 'Firefox' && argb" ];
-inactive-opacity = 0.95;
-menu :
-{
-    shadow = false;
-};
-dropdown_menu :
-{
-    shadow = false;
-};
-popup_menu :
-{
-    shadow = false;
-};
-utility :
-{
-    shadow = false;
-}
 
+# uncomment for transparent windows
+#shadow-exclude = [ "class_g = 'Firefox' && argb" ];
+#inactive-opacity = 0.95;
+#menu :
+#{
+#    shadow = false;
+#};
+#dropdown_menu :
+#{
+#    shadow = false;
+#};
+#popup_menu :
+#{
+#    shadow = false;
+#};
+#utility :
+#{
+#    shadow = false;
+#}
 backend = "glx";
 vsync = "true";
 
