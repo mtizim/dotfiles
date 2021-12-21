@@ -86,7 +86,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -183,6 +183,8 @@ focus_follows_mouse no
 for_window [class="^.*"] border pixel 0
 gaps inner 8
 smart_gaps on
+exec --no-startup-id noisetorch -i
+exec --no-startup-id key-mapper-control --command autoload
 exec --no-startup-id picom  -b --config ~/.config/picom.conf
 exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/
 bindsym $mod+b exec --no-startup-id feh --bg-fill --randomize ~/wallpapers
@@ -201,9 +203,20 @@ bindsym $mod+c exec rofi -modi "clipboard:greenclip print" -show clipboard -run-
 bindsym $mod+x exec pkill greenclip && greenclip clear && greenclip daemon &
 bindsym $mod+d exec rofi -drun -show run -rnow -run-command "bash -i -c '{cmd}'"
 bindsym $mod+f exec rofi  -show find -modi find:~/.local/share/rofi/finder.sh
+bindsym $mod+a exec rofimoji
 default_border pixel 0
 default_floating_border pixel 0
 
-exec --no-startup-id noisetorch -i
+
 bindsym Print exec shutter -s
 bindsym $mod+Print exec shutter -w
+
+
+
+#  media controls for spotify
+bindsym XF86AudioPlay exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+bindsym XF86AudioPause exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+bindsym XF86AudioNext exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+bindsym XF86AudioPrev exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+
+bindsym XF86LaunchA exec pgrep spotify && i3-msg '[class="Spotify"] focus' || spotify

@@ -13,6 +13,8 @@ sudo pacman -S i3-gaps compton unclutter feh i3status volumeicon xclip picom lxa
 pamac build rofi-greenclip
 pamac build rofi-file-browser-extended-git
 pamac build rofi-calc
+pamac build rofimoji
+pamac install emoji-font xsel xdotool
 # noise filtering
 pamac build noisetorch
 # equalizer
