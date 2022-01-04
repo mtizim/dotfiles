@@ -184,7 +184,7 @@ for_window [class="^.*"] border pixel 0
 gaps inner 8
 smart_gaps on
 exec --no-startup-id noisetorch -i
-exec --no-startup-id key-mapper-control --command autoload
+exec --no-startup-id input-remapper-control --command autoload
 exec --no-startup-id picom  -b --config ~/.config/picom.conf
 exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/
 bindsym $mod+b exec --no-startup-id feh --bg-fill --randomize ~/wallpapers

@@ -1,0 +1,11 @@
+{
+    "mapping": {
+        "1,111,1": "Print",
+        "1,102,1": "Delete",
+        "1,97,1": "Home",
+        "1,104,1": "parenleft",
+        "1,109,1": "parenright",
+        "1,99,1": "XF86LaunchA",
+        "1,29,1+1,107,1": "Control_R"
+    }
+}

@@ -81,4 +81,5 @@ https://github.com/davatorium/rofi-scripts/tree/master/rofi-finder
 sudo pacman -S lutris
 # install the rofi launcher https://github.com/mtizim/rofi-lutris
 
-# use key-mapper  for key remapping
+# use input-remapper for key remapping
+# current mapping in input-remap.json
