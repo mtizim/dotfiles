@@ -1,4 +1,4 @@
-# Manjaro (xfce) post install
+# Arch post install
 
 
 # Setup appearance settings
@@ -9,31 +9,33 @@
 
 # Install i3-gaps, rofi, etc
 
-sudo pacman -S i3-gaps compton unclutter feh i3status volumeicon xclip picom lxappearance alacritty
-pamac build rofi-greenclip
-pamac build rofi-file-browser-extended-git
-pamac build rofi-calc
-pamac build rofimoji
-pamac install emoji-font xsel xdotool
+yay -S -S i3-gaps compton unclutter feh i3status volumeicon xclip picom lxappearance alacritty
+yay -S rofi-greenclip
+yay -S rofi-file-browser-extended-git
+yay -S rofi-calc
+yay -S rofimoji
+yay -S emoji-font xsel xdotool
 # noise filtering
-pamac build noisetorch
+yay -S noisetorch
 # equalizer
 # install pipewire and easyeffects
 # for pulseaudio comp layer:
-sudo pacman -S pipewire-pulse
+yay -S -S pipewire-pulse
 # easyeffects:
-sudo pacman -S easyeffects
+yay -S -S easyeffects
 # follow instructions from https://github.com/jaakkopasanen/AutoEq
 # for perfect eq
 
 # use lxappearance to set a theme
 # use rofi-theme-selector to choose a theme (gruvbox dark hard)
 
-sudo pacman -S fish
-curl -L https://get.oh-my.fish | fish
+yay -S -S fish
 # chsh to change shell to fish
 # boxfish is a nice theme
-omf install boxfish
+fisher install JustHmmmm/theme-boxfish
+# https://github.com/PatrickF1/fzf.fish
+yay -S fzf fd bat
+fisher install PatrickF1/fzf.fish
 
 
 ## Get dotfiles from github
@@ -59,16 +61,16 @@ timedatectl set-ntp true
 # probably need fo use this ->
 # https://stackoverflow.com/questions/64463768/cant-find-certain-extensions-in-code-ossopen-source-variant-of-visual-studio-c
 # sync settings with the settings-sync extension
-pacman -S code
+yay -S code
 
 
 
 # install proprietary drivers
-# https://wiki.manjaro.org/index.php/Configure_NVIDIA_(non-free)_settings_and_load_them_on_Startup
+# https://wiki.archlinux.org/title/NVIDIA
 
 
 # install spotify, spicetify and the likes
-pamac build spotify spicetify-cli spicetify-themes-git
+yay -S spotify spicetify-cli spicetify-themes-git
 
 #  ! https://github.com/khanhas/spicetify-cli/wiki/Installation#spotify-installed-from-aur
 sudo chmod a+wr /opt/spotify
@@ -78,7 +80,7 @@ sudo chmod a+wr /opt/spotify/Apps -R
 https://github.com/davatorium/rofi-scripts/tree/master/rofi-finder
 
 # install lutris
-sudo pacman -S lutris
+yay -S -S lutris
 # install the rofi launcher https://github.com/mtizim/rofi-lutris
 
 # use input-remapper for key remapping
