@@ -183,12 +183,12 @@ focus_follows_mouse no
 for_window [class="^.*"] border pixel 0
 gaps inner 8
 smart_gaps on
+exec --no-startup-id unclutter -idle 1
 exec --no-startup-id noisetorch -i
 exec --no-startup-id input-remapper-control --command autoload
 exec --no-startup-id picom  -b --config ~/.config/picom.conf
 exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/
 bindsym $mod+b exec --no-startup-id feh --bg-fill --randomize ~/wallpapers
-exec --no-startup-id unclutter -idle 1
 # exec --no-startup-id /home/mtizim/.xinit
 # exec --no-startup-id dunst
 # bindsym XF86MonBrightnessUp exec xbacklight -inc 10
@@ -211,7 +211,10 @@ default_floating_border pixel 0
 bindsym Print exec shutter -s
 bindsym $mod+Print exec shutter -w
 
-
+# neccessary for redshift
+exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+exec --no-startup-id redshift-gtk
+exec --no-startup-id sbxkb
 
 #  media controls for spotify
 bindsym XF86AudioPlay exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
@@ -220,3 +223,8 @@ bindsym XF86AudioNext exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2
 bindsym XF86AudioPrev exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
 
 bindsym XF86LaunchA exec pgrep spotify && i3-msg '[class="Spotify"] focus' || spotify
+
+#  config these locally
+workspace 1 output HDMI-0
+workspace 2 output DP-0
+workspace 3 output DVI-D-0
