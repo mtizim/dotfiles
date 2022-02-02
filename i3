@@ -211,10 +211,9 @@ default_floating_border pixel 0
 bindsym Print exec shutter -s
 bindsym $mod+Print exec shutter -w
 
-# neccessary for redshift
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 exec --no-startup-id redshift-gtk
-exec --no-startup-id sbxkb
+exec --no-startup-id fbxkb
 
 #  media controls for spotify
 bindsym XF86AudioPlay exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
@@ -224,7 +223,6 @@ bindsym XF86AudioPrev exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2
 
 bindsym XF86LaunchA exec pgrep spotify && i3-msg '[class="Spotify"] focus' || spotify
 
-#  config these locally
 workspace 1 output HDMI-0
 workspace 2 output DP-0
 workspace 3 output DVI-D-0

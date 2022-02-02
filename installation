@@ -9,7 +9,7 @@
 
 # Install i3-gaps, rofi, etc
 
-yay -S -S i3-gaps compton unclutter feh i3status volumeicon xclip picom lxappearance alacritty
+yay -S  i3-gaps compton unclutter feh i3status volumeicon xclip picom lxappearance alacritty
 yay -S rofi-greenclip
 yay -S rofi-file-browser-extended-git
 yay -S rofi-calc
@@ -20,16 +20,16 @@ yay -S noisetorch
 # equalizer
 # install pipewire and easyeffects
 # for pulseaudio comp layer:
-yay -S -S pipewire-pulse
+yay -S  pipewire-pulse
 # easyeffects:
-yay -S -S easyeffects
+yay -S  easyeffects
 # follow instructions from https://github.com/jaakkopasanen/AutoEq
 # for perfect eq
 
 # use lxappearance to set a theme
 # use rofi-theme-selector to choose a theme (gruvbox dark hard)
 
-yay -S -S fish
+yay -S fish
 # chsh to change shell to fish
 # boxfish is a nice theme
 fisher install JustHmmmm/theme-boxfish
@@ -80,8 +80,12 @@ sudo chmod a+wr /opt/spotify/Apps -R
 https://github.com/davatorium/rofi-scripts/tree/master/rofi-finder
 
 # install lutris
-yay -S -S lutris
+yay -S lutris
 # install the rofi launcher https://github.com/mtizim/rofi-lutris
 
 # use input-remapper for key remapping
 # current mapping in input-remap.json
+
+
+# keyboard config for language learning
+yay -S fbxkb
