@@ -45,7 +45,7 @@ bindsym $mod+Shift+q kill
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
-bindsym $mod+l focus up
+# bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
@@ -204,6 +204,7 @@ bindsym $mod+x exec pkill greenclip && greenclip clear && greenclip daemon &
 bindsym $mod+d exec rofi -drun -show run -rnow -run-command "bash -i -c '{cmd}'"
 bindsym $mod+f exec rofi  -show find -modi find:~/.local/share/rofi/finder.sh
 bindsym $mod+a exec rofimoji
+bindsym $mod+l exec rofi-kbmap
 default_border pixel 0
 default_floating_border pixel 0
 
@@ -213,8 +214,6 @@ bindsym $mod+Print exec shutter -w
 
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 exec --no-startup-id redshift-gtk
-exec --no-startup-id fbxkb
-exec --no-startup-id setxkbmap  pl,se
 
 #  media controls for spotify
 bindsym XF86AudioPlay exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
@@ -223,6 +222,7 @@ bindsym XF86AudioNext exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2
 bindsym XF86AudioPrev exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
 
 bindsym XF86LaunchA exec pgrep spotify && i3-msg '[class="Spotify"] focus' || spotify
+
 
 workspace 1 output HDMI-0
 workspace 2 output DP-0

@@ -57,11 +57,8 @@ timedatectl set-ntp true
 
 # install necessary packages
 
-# this is vscode-oss
-# probably need fo use this ->
-# https://stackoverflow.com/questions/64463768/cant-find-certain-extensions-in-code-ossopen-source-variant-of-visual-studio-c
 # sync settings with the settings-sync extension
-yay -S code
+yay -S code-marketplace
 
 
 
@@ -83,9 +80,9 @@ https://github.com/davatorium/rofi-scripts/tree/master/rofi-finder
 yay -S lutris
 # install the rofi launcher https://github.com/mtizim/rofi-lutris
 
+# install the kbmap selector if necessary https://github.com/mtizim/rofi-kbmap
+
 # use input-remapper for key remapping
 # current mapping in input-remap.json
 
 
-# keyboard config for language learning
-yay -S fbxkb
