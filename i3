@@ -214,6 +214,7 @@ bindsym $mod+Print exec shutter -w
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 exec --no-startup-id redshift-gtk
 exec --no-startup-id fbxkb
+exec --no-startup-id setxkbmap  pl,se
 
 #  media controls for spotify
 bindsym XF86AudioPlay exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
