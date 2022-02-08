@@ -43,10 +43,10 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
+# bindsym $mod+j focus left
+# bindsym $mod+k focus down
 # bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+# bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -54,11 +54,11 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-# move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+# # move focused window
+# bindsym $mod+Shift+j move left
+# bindsym $mod+Shift+k move down
+# bindsym $mod+Shift+l move up
+# bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -205,6 +205,9 @@ bindsym $mod+d exec rofi -drun -show run -rnow -run-command "bash -i -c '{cmd}'"
 bindsym $mod+f exec rofi  -show find -modi find:~/.local/share/rofi/finder.sh
 bindsym $mod+a exec rofimoji
 bindsym $mod+l exec rofi-kbmap
+bindsym $mod+k exec rofitr
+
+
 default_border pixel 0
 default_floating_border pixel 0
 
@@ -223,7 +226,7 @@ bindsym XF86AudioPrev exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2
 
 bindsym XF86LaunchA exec pgrep spotify && i3-msg '[class="Spotify"] focus' || spotify
 
-
+exec --no-startup-id "setxkbmap -layout pl,se"
 workspace 1 output HDMI-0
 workspace 2 output DP-0
 workspace 3 output DVI-D-0
