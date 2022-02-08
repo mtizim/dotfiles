@@ -45,7 +45,7 @@ fisher install PatrickF1/fzf.fish
 ### *xbacklight helpers
 ### *i3status in "bar{}"
 
-### Remove static history from .config/greenclip.toml if nece>
+### Remove static history from .config/greenclip.toml if necessary
 
 ### Set up volumeicon for keyboard volume keys
 
@@ -86,3 +86,6 @@ yay -S lutris
 # current mapping in input-remap.json
 
 
+# Rofi translator + deps
+# https://github.com/mtizim/rofitr
+yay -S crow-translate
