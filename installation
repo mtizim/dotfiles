@@ -89,3 +89,6 @@ yay -S lutris
 # Rofi translator + deps
 # https://github.com/mtizim/rofitr
 yay -S crow-translate
+
+# btop with configuration in relevant file
+yay -S btop
